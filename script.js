@@ -1,4 +1,4 @@
-const APK_URL = "#"; const PLAY_URL = "#";
+const APK_URL = "https://github.com/sartajansari9905186350-art/seerat-website/releases/download/v1.3.6/app-release.apk"; = "#"; const PLAY_URL = "#";
 ["apkBtn","apkBtn2"].forEach(id=>document.getElementById(id)?.addEventListener("click",e=>{if(APK_URL==="#"){e.preventDefault();alert("Apni APK ki direct download link yahan add karein.");}}));
 ["playBtn","playBtn2"].forEach(id=>document.getElementById(id)?.addEventListener("click",e=>{if(PLAY_URL==="#"){e.preventDefault();alert("Google Play listing ka link yahan add karein.");}}));
 document.querySelector(".menu-btn")?.addEventListener("click",()=>{const n=document.querySelector(".nav nav");n.style.display=n.style.display==="flex"?"none":"flex";n.style.position="absolute";n.style.top="72px";n.style.right="5%";n.style.flexDirection="column";n.style.background="#002c1f";n.style.padding="18px";n.style.borderRadius="10px";});
